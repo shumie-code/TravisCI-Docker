@@ -1,7 +1,7 @@
-root: required
+sudo: required
 services:
   - docker
 
 script:
-  -docker build -t petrosdesigns/node .
-  -docker images petrosdesigns/node 
+  - docker build -t shumiedocker/node .
+  - docker images shumiedocker/node 
