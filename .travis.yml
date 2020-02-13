@@ -5,3 +5,12 @@ services:
 script:
   - docker build -t shumiedocker/node .
   - docker images shumiedocker/node 
+
+before_deploy:
+- docker login -u shumiedocker -p Vegeta9152!
+
+deploy:
+  provider: script
+  script: docker push shumiedocker/node
+  on:
+    branch: master
