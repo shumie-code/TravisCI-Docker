@@ -17,3 +17,6 @@ Where the application can be found:
 The application is currently deployed as a Docker Image and can be acessed via pulling the images down from this page: 
 https://hub.docker.com/repository/docker/shumiedocker/node 
 Using the command: docker pull shumiedocker/node a Docker instance will begin to run on yourr machine
+
+Travis-CI: Updating and maintaining the application once deployed is done via Travis-CI
+Travis-CI is a continous integration tool that is used to speed up development of new and existing applications. 
